@@ -19,9 +19,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'oauth2', '~> 1.0'
-  spec.add_dependency 'hashie', '~> 3.3.1'
+  spec.add_dependency 'hashie', '~> 3.4.2'
   spec.add_dependency 'activesupport', '>= 3.2'
-  spec.add_dependency 'faraday_middleware', '~> 0.9.1'
+  spec.add_dependency 'faraday_middleware', '~> 0.10.0'
 
   spec.add_development_dependency 'dotenv', '~> 0.11.1'
 
