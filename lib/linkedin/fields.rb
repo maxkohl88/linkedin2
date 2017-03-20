@@ -15,7 +15,7 @@ module LinkedIn
 
     BASE_BASIC_PROFILE = [ 'id', 'first-name', 'last-name','maiden-name', 'formatted-name', 'phonetic-first-name',
                            'phonetic-last-name', 'formatted-phonetic-name', 'headline', 'industry', 'distance',
-                           'current-share', 'num-connections', 'num-connections-capped', 'summary', 'specialties',
+                           'num-connections', 'num-connections-capped', 'summary', 'specialties',
                            'picture-url', 'site-standard-profile-request', 'public-profile-url',
                            PROFILE_LOCATION, PROFILE_POSITIONS, PROFILE_API_STD_PROFILE_REQ ]
 
