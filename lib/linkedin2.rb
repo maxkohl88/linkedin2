@@ -26,7 +26,7 @@ module LinkedIn
     Client.new config, &block
   end
 
-  [:r_basicprofile, :r_emailaddress, :r_fullprofile, :r_contactinfo, :r_network, :rw_groups, :rw_nus, :w_messages].each do |field|
+  [:r_liteprofile, :r_emailaddress, :r_fullprofile, :r_contactinfo, :r_network, :rw_groups, :rw_nus, :w_messages].each do |field|
     define_singleton_method field do
         Fields.const_get field.to_s.upcase
     end

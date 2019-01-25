@@ -44,7 +44,7 @@ module LinkedIn
 
     def execute(root, method: :get, selector: nil, fields: nil, **opts)
       rendered_fields = Fields.render fields
-      query = ['v1', root, selector.to_param, opts[:path]].compact.join('/').concat(rendered_fields)
+      query = ['v2', root, selector.to_param, opts[:path]].compact.join('/').concat(rendered_fields)
 
       response = connection.send method, query do |req|
         req.headers.update override(@headers, opts[:headers])

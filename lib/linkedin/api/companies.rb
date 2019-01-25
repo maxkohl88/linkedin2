@@ -25,13 +25,13 @@ module LinkedIn
 
       # to call this,
       # client.company_search 'nike', fields: company_api_fields
-      # https://api.linkedin.com/v1/company-search?keywords=nike
+      # https://api.linkedin.com/v2/company-search?keywords=nike
       #
       # client.company_search 'nike', 'footwear', fields: company_api_fields
-      # https://api.linkedin.com/v1/company-search?keywords=nike%20footwear
+      # https://api.linkedin.com/v2/company-search?keywords=nike%20footwear
       #
       # client.company_search 'nike', 'footwear', 'kobe', 'yellow', filter: 'hq-only=true', fields: company_api_fields
-      # https://api.linkedin.com/v1/company-search?keywords=nike%20footwear%20kobe%20yellow&hq-only=true
+      # https://api.linkedin.com/v2/company-search?keywords=nike%20footwear%20kobe%20yellow&hq-only=true
 
       def company_search(*keywords, filter: nil, **opts)
 

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people-search?company-name=linkedin
+    uri: https://api.linkedin.com/v2/people-search?company-name=linkedin
     body:
       encoding: US-ASCII
       string: ''
@@ -42,7 +42,7 @@ http_interactions:
   recorded_at: Tue, 04 Jun 2013 03:42:37 GMT
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people-search?company-name=IBM
+    uri: https://api.linkedin.com/v2/people-search?company-name=IBM
     body:
       encoding: US-ASCII
       string: ''

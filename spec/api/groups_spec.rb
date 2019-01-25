@@ -4,12 +4,12 @@ describe LinkedIn::API::Groups do
 
   context 'todo' do
     it "should be able to list group memberships for a profile" do
-      pending "https://api.linkedin.com/v1/people/~/group-memberships"
+      pending "https://api.linkedin.com/v2/people/~/group-memberships"
       subject.group_memberships
     end
 
     it "should be able to join a group" do
-      pending "https://api.linkedin.com/v1/people/~/group-memberships/123"
+      pending "https://api.linkedin.com/v2/people/~/group-memberships/123"
 
       response = subject.join_group(123)
       response.body.should == nil

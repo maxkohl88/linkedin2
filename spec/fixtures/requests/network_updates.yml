@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people/~/network/updates?oauth2_access_token=AQUJwEF40pJUbVxsW_mujQ3QCiXvlTnMFk55SlfVPYRcAPdsn1oE1Hm8Ldlc61o57k96i04ufG81KFdPJIOSJswXsGyZ0tk9IMZea8sfNXMGMnZgikQJUQPkmRVYVw9BP1qH9tp7hJF32DQtzkBB_NE8xPASPVgXVWbbntChGyYqqDvF1p8
+    uri: https://api.linkedin.com/v2/people/~/network/updates?oauth2_access_token=AQUJwEF40pJUbVxsW_mujQ3QCiXvlTnMFk55SlfVPYRcAPdsn1oE1Hm8Ldlc61o57k96i04ufG81KFdPJIOSJswXsGyZ0tk9IMZea8sfNXMGMnZgikQJUQPkmRVYVw9BP1qH9tp7hJF32DQtzkBB_NE8xPASPVgXVWbbntChGyYqqDvF1p8
     body:
       encoding: US-ASCII
       string: ''
@@ -61,7 +61,7 @@ http_interactions:
                       "value": "name:Dack"
                     }]
                   },
-                  "url": "http://api.linkedin.com/v1/people/mbAZ4HR8RV"
+                  "url": "http://api.linkedin.com/v2/people/mbAZ4HR8RV"
                 },
                 "firstName": "Josh",
                 "headline": "No-bullshit Software Engineer",
@@ -86,7 +86,7 @@ http_interactions:
                       "value": "name:24s3"
                     }]
                   },
-                  "url": "http://api.linkedin.com/v1/people/4eTIydMs1T"
+                  "url": "http://api.linkedin.com/v2/people/4eTIydMs1T"
                 },
                 "firstName": "Bob",
                 "headline": "Guy at EverTrue",
@@ -127,7 +127,7 @@ http_interactions:
                           "value": "name:lTbb"
                         }]
                       },
-                      "url": "http://api.linkedin.com/v1/people/cDmdM9cb0H"
+                      "url": "http://api.linkedin.com/v2/people/cDmdM9cb0H"
                     },
                     "firstName": "Josh",
                     "headline": "Test Engineer at LinkedIn2 Gem",
@@ -148,7 +148,7 @@ http_interactions:
                       "value": "name:Dack"
                     }]
                   },
-                  "url": "http://api.linkedin.com/v1/people/mbAZ4HR8RV"
+                  "url": "http://api.linkedin.com/v2/people/mbAZ4HR8RV"
                 },
                 "firstName": "Josh",
                 "headline": "No-bullshit Software Engineer",
@@ -184,7 +184,7 @@ http_interactions:
                       "value": "name:Dack"
                     }]
                   },
-                  "url": "http://api.linkedin.com/v1/people/mbAZ4HR8RV"
+                  "url": "http://api.linkedin.com/v2/people/mbAZ4HR8RV"
                 },
                 "connections": {
                   "_total": 1,
@@ -197,7 +197,7 @@ http_interactions:
                           "value": "name:HNEa"
                         }]
                       },
-                      "url": "http://api.linkedin.com/v1/people/eQwOZJj2ww"
+                      "url": "http://api.linkedin.com/v2/people/eQwOZJj2ww"
                     },
                     "firstName": "Christopher",
                     "headline": "Software Engineer",
@@ -230,7 +230,7 @@ http_interactions:
                       "value": "name:24s3"
                     }]
                   },
-                  "url": "http://api.linkedin.com/v1/people/4eTIydMs1T"
+                  "url": "http://api.linkedin.com/v2/people/4eTIydMs1T"
                 },
                 "connections": {
                   "_total": 1,
@@ -243,7 +243,7 @@ http_interactions:
                           "value": "name:BLmC"
                         }]
                       },
-                      "url": "http://api.linkedin.com/v1/people/0nY7GzaRyF"
+                      "url": "http://api.linkedin.com/v2/people/0nY7GzaRyF"
                     },
                     "firstName": "Nick",
                     "headline": "Application Analyst 1 at Lifespan",
@@ -276,7 +276,7 @@ http_interactions:
                       "value": "name:24s3"
                     }]
                   },
-                  "url": "http://api.linkedin.com/v1/people/4eTIydMs1T"
+                  "url": "http://api.linkedin.com/v2/people/4eTIydMs1T"
                 },
                 "connections": {
                   "_total": 1,
@@ -289,7 +289,7 @@ http_interactions:
                           "value": "name:1Z0S"
                         }]
                       },
-                      "url": "http://api.linkedin.com/v1/people/Uj8HdWXG29"
+                      "url": "http://api.linkedin.com/v2/people/Uj8HdWXG29"
                     },
                     "firstName": "Alexandra",
                     "headline": "UX Designer at PayPal Media Network",
@@ -322,7 +322,7 @@ http_interactions:
                       "value": "name:24s3"
                     }]
                   },
-                  "url": "http://api.linkedin.com/v1/people/4eTIydMs1T"
+                  "url": "http://api.linkedin.com/v2/people/4eTIydMs1T"
                 },
                 "connections": {
                   "_total": 1,
@@ -335,7 +335,7 @@ http_interactions:
                           "value": "name:6S_r"
                         }]
                       },
-                      "url": "http://api.linkedin.com/v1/people/cT-XE1up60"
+                      "url": "http://api.linkedin.com/v2/people/cT-XE1up60"
                     },
                     "firstName": "Slava",
                     "headline": "Co-founder bikeGOTHAM.com, Real Estate Investor",
@@ -368,7 +368,7 @@ http_interactions:
                       "value": "name:24s3"
                     }]
                   },
-                  "url": "http://api.linkedin.com/v1/people/4eTIydMs1T"
+                  "url": "http://api.linkedin.com/v2/people/4eTIydMs1T"
                 },
                 "connections": {
                   "_total": 1,
@@ -381,7 +381,7 @@ http_interactions:
                           "value": "name:nLJu"
                         }]
                       },
-                      "url": "http://api.linkedin.com/v1/people/Y3O2vpIsLb"
+                      "url": "http://api.linkedin.com/v2/people/Y3O2vpIsLb"
                     },
                     "firstName": "Gabriel",
                     "headline": "Enthusiastic book reader and morning jogger, CEO",
@@ -414,7 +414,7 @@ http_interactions:
                       "value": "name:24s3"
                     }]
                   },
-                  "url": "http://api.linkedin.com/v1/people/4eTIydMs1T"
+                  "url": "http://api.linkedin.com/v2/people/4eTIydMs1T"
                 },
                 "connections": {
                   "_total": 1,
@@ -427,7 +427,7 @@ http_interactions:
                           "value": "name:eOI_"
                         }]
                       },
-                      "url": "http://api.linkedin.com/v1/people/xLHgsOPJ2M"
+                      "url": "http://api.linkedin.com/v2/people/xLHgsOPJ2M"
                     },
                     "firstName": "Michael",
                     "headline": "Northeastern University Finance & Music Industry Graduate seeking Finance/Real Estate **career opportunities**",
@@ -460,7 +460,7 @@ http_interactions:
                       "value": "name:Dack"
                     }]
                   },
-                  "url": "http://api.linkedin.com/v1/people/mbAZ4HR8RV"
+                  "url": "http://api.linkedin.com/v2/people/mbAZ4HR8RV"
                 },
                 "connections": {
                   "_total": 1,
@@ -473,7 +473,7 @@ http_interactions:
                           "value": "name:75Di"
                         }]
                       },
-                      "url": "http://api.linkedin.com/v1/people/hCA94wLLMf"
+                      "url": "http://api.linkedin.com/v2/people/hCA94wLLMf"
                     },
                     "firstName": "Jaclyn",
                     "headline": "Manager, HR Partnerships at Vistaprint",
@@ -499,7 +499,7 @@ http_interactions:
   recorded_at: Sun, 13 Oct 2013 23:16:44 GMT
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people/~/network/updates/key=PROF-18939563-5794095336964247552-*1?oauth2_access_token=AQUJwEF40pJUbVxsW_mujQ3QCiXvlTnMFk55SlfVPYRcAPdsn1oE1Hm8Ldlc61o57k96i04ufG81KFdPJIOSJswXsGyZ0tk9IMZea8sfNXMGMnZgikQJUQPkmRVYVw9BP1qH9tp7hJF32DQtzkBB_NE8xPASPVgXVWbbntChGyYqqDvF1p8
+    uri: https://api.linkedin.com/v2/people/~/network/updates/key=PROF-18939563-5794095336964247552-*1?oauth2_access_token=AQUJwEF40pJUbVxsW_mujQ3QCiXvlTnMFk55SlfVPYRcAPdsn1oE1Hm8Ldlc61o57k96i04ufG81KFdPJIOSJswXsGyZ0tk9IMZea8sfNXMGMnZgikQJUQPkmRVYVw9BP1qH9tp7hJF32DQtzkBB_NE8xPASPVgXVWbbntChGyYqqDvF1p8
     body:
       encoding: US-ASCII
       string: ''
@@ -569,7 +569,7 @@ http_interactions:
                       "value": "name:lTbb"
                     }]
                   },
-                  "url": "http://api.linkedin.com/v1/people/cDmdM9cb0H"
+                  "url": "http://api.linkedin.com/v2/people/cDmdM9cb0H"
                 },
                 "firstName": "Josh",
                 "headline": "Test Engineer at LinkedIn2 Gem",
@@ -590,7 +590,7 @@ http_interactions:
                   "value": "name:Dack"
                 }]
               },
-              "url": "http://api.linkedin.com/v1/people/mbAZ4HR8RV"
+              "url": "http://api.linkedin.com/v2/people/mbAZ4HR8RV"
             },
             "firstName": "Josh",
             "headline": "No-bullshit Software Engineer",
@@ -617,7 +617,7 @@ http_interactions:
   recorded_at: Sun, 13 Oct 2013 23:18:45 GMT
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people/~/network/updates/key=PROF-18939563-5794095336964247552-*1/update-comments?oauth2_access_token=AQUJwEF40pJUbVxsW_mujQ3QCiXvlTnMFk55SlfVPYRcAPdsn1oE1Hm8Ldlc61o57k96i04ufG81KFdPJIOSJswXsGyZ0tk9IMZea8sfNXMGMnZgikQJUQPkmRVYVw9BP1qH9tp7hJF32DQtzkBB_NE8xPASPVgXVWbbntChGyYqqDvF1p8
+    uri: https://api.linkedin.com/v2/people/~/network/updates/key=PROF-18939563-5794095336964247552-*1/update-comments?oauth2_access_token=AQUJwEF40pJUbVxsW_mujQ3QCiXvlTnMFk55SlfVPYRcAPdsn1oE1Hm8Ldlc61o57k96i04ufG81KFdPJIOSJswXsGyZ0tk9IMZea8sfNXMGMnZgikQJUQPkmRVYVw9BP1qH9tp7hJF32DQtzkBB_NE8xPASPVgXVWbbntChGyYqqDvF1p8
     body:
       encoding: US-ASCII
       string: ''
@@ -672,7 +672,7 @@ http_interactions:
                     "value": "name:lTbb"
                   }]
                 },
-                "url": "http://api.linkedin.com/v1/people/cDmdM9cb0H"
+                "url": "http://api.linkedin.com/v2/people/cDmdM9cb0H"
               },
               "firstName": "Josh",
               "headline": "Test Engineer at LinkedIn2 Gem",
@@ -688,7 +688,7 @@ http_interactions:
   recorded_at: Sun, 13 Oct 2013 23:18:53 GMT
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people/~/network/updates/key=PROF-18939563-5794095336964247552-*1/likes?oauth2_access_token=AQUJwEF40pJUbVxsW_mujQ3QCiXvlTnMFk55SlfVPYRcAPdsn1oE1Hm8Ldlc61o57k96i04ufG81KFdPJIOSJswXsGyZ0tk9IMZea8sfNXMGMnZgikQJUQPkmRVYVw9BP1qH9tp7hJF32DQtzkBB_NE8xPASPVgXVWbbntChGyYqqDvF1p8
+    uri: https://api.linkedin.com/v2/people/~/network/updates/key=PROF-18939563-5794095336964247552-*1/likes?oauth2_access_token=AQUJwEF40pJUbVxsW_mujQ3QCiXvlTnMFk55SlfVPYRcAPdsn1oE1Hm8Ldlc61o57k96i04ufG81KFdPJIOSJswXsGyZ0tk9IMZea8sfNXMGMnZgikQJUQPkmRVYVw9BP1qH9tp7hJF32DQtzkBB_NE8xPASPVgXVWbbntChGyYqqDvF1p8
     body:
       encoding: US-ASCII
       string: ''

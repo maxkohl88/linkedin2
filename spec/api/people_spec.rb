@@ -25,55 +25,55 @@ describe LinkedIn::API::People, vcr: { cassette_name: 'people' } do
 
   context 'todo' do
     it "should be able to search with a keyword if given a String" do
-      pending "https://api.linkedin.com/v1/people-search?keywords=business"
+      pending "https://api.linkedin.com/v2/people-search?keywords=business"
       subject.search("business")
     end
 
     it "should be able to search with an option" do
-      pending "https://api.linkedin.com/v1/people-search?first-name=Javan"
+      pending "https://api.linkedin.com/v2/people-search?first-name=Javan"
       subject.search(:first_name => "Javan")
     end
 
     it "should be able to search with an option and fetch specific fields" do
-      pending "https://api.linkedin.com/v1/people-search:(num-results,total)?first-name=Javan"
+      pending "https://api.linkedin.com/v2/people-search:(num-results,total)?first-name=Javan"
       subject.search(:first_name => "Javan", :fields => ["num_results", "total"])
     end
 
     it "should be able to share a new status" do
-      pending "https://api.linkedin.com/v1/people/~/shares"
+      pending "https://api.linkedin.com/v2/people/~/shares"
       response = subject.add_share(:comment => "Testing, 1, 2, 3")
       response.body.should == nil
       response.code.should == "201"
     end
 
     it "returns the shares for a person" do
-      pending "https://api.linkedin.com/v1/people/~/network/updates?type=SHAR&scope=self&after=1234&count=35"
+      pending "https://api.linkedin.com/v2/people/~/network/updates?type=SHAR&scope=self&after=1234&count=35"
       subject.shares(:after => 1234, :count => 35)
     end
 
     it "should be able to comment on network update" do
-      pending "https://api.linkedin.com/v1/people/~/network/updates/key=SOMEKEY/update-comments"
+      pending "https://api.linkedin.com/v2/people/~/network/updates/key=SOMEKEY/update-comments"
       response = subject.update_comment('SOMEKEY', "Testing, 1, 2, 3")
       response.body.should == nil
       response.code.should == "201"
     end
 
     it "should be able to send a message" do
-      pending "https://api.linkedin.com/v1/people/~/mailbox"
+      pending "https://api.linkedin.com/v2/people/~/mailbox"
       response = subject.send_message("subject", "body", ["recip1", "recip2"])
       response.body.should == nil
       response.code.should == "201"
     end
 
     it "should be able to like a network update" do
-      pending "https://api.linkedin.com/v1/people/~/network/updates/key=SOMEKEY/is-liked"
+      pending "https://api.linkedin.com/v2/people/~/network/updates/key=SOMEKEY/is-liked"
       response = subject.like_share('SOMEKEY')
       response.body.should == nil
       response.code.should == "201"
     end
 
     it "should be able to unlike a network update" do
-      pending "https://api.linkedin.com/v1/people/~/network/updates/key=SOMEKEY/is-liked"
+      pending "https://api.linkedin.com/v2/people/~/network/updates/key=SOMEKEY/is-liked"
       response = subject.unlike_share('SOMEKEY')
       response.body.should == nil
       response.code.should == "201"
@@ -92,7 +92,7 @@ describe LinkedIn::API::People, vcr: { cassette_name: 'people' } do
     end
 
     it "should raise AccessDeniedError when LinkedIn returns 403 status code" do
-      pending "https://api.linkedin.com/v1/people-search?first-name=Javan"
+      pending "https://api.linkedin.com/v2/people-search?first-name=Javan"
       expect{ subject.search(:first_name => "Javan") }.to raise_error(LinkedIn::Forbidden)
     end
   end

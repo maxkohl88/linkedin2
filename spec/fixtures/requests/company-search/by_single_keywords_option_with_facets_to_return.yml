@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/company-search?facets=industry&keywords=apple
+    uri: https://api.linkedin.com/v2/company-search?facets=industry&keywords=apple
     body:
       encoding: US-ASCII
       string: ''

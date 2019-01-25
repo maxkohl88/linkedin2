@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people-search?first-name=Giliardi&last-name=Pires
+    uri: https://api.linkedin.com/v2/people-search?first-name=Giliardi&last-name=Pires
     body:
       encoding: US-ASCII
       string: ''
@@ -42,7 +42,7 @@ http_interactions:
   recorded_at: Tue, 04 Jun 2013 03:42:37 GMT
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people-search?first-name=Charles&last-name=Garcia
+    uri: https://api.linkedin.com/v2/people-search?first-name=Charles&last-name=Garcia
     body:
       encoding: US-ASCII
       string: ''

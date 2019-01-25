@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people/~
+    uri: https://api.linkedin.com/v2/people/~
     body:
       encoding: US-ASCII
       string: ''
@@ -52,7 +52,7 @@ http_interactions:
   recorded_at: Sat, 21 Sep 2013 15:36:08 GMT
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people/~?oauth2_access_token=AQXjfyOrBFhWJIkcBXi1ubzLZQhQc2CVGoXdgo2I6wirbJejAwhXDIYu-3gnADeNVeRey_m9jvohTG9rAjFhzakL7UkTbXIBC_GlwTHhhUWHTXzWdRgtVu-al9BQ3bDGCkbsaiCJySOkUn5YFPJE-7eFkA5MwZi_4PJZoep0D80yI8svMkk
+    uri: https://api.linkedin.com/v2/people/~?oauth2_access_token=AQXjfyOrBFhWJIkcBXi1ubzLZQhQc2CVGoXdgo2I6wirbJejAwhXDIYu-3gnADeNVeRey_m9jvohTG9rAjFhzakL7UkTbXIBC_GlwTHhhUWHTXzWdRgtVu-al9BQ3bDGCkbsaiCJySOkUn5YFPJE-7eFkA5MwZi_4PJZoep0D80yI8svMkk
     body:
       encoding: US-ASCII
       string: ''

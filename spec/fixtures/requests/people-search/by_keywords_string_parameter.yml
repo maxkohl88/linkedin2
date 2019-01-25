@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people-search?keywords=github
+    uri: https://api.linkedin.com/v2/people-search?keywords=github
     body:
       encoding: US-ASCII
       string: ''
@@ -46,7 +46,7 @@ http_interactions:
         \"Jay\",\n        \"id\": \"i24wDA2GrH\",\n        \"lastName\": \"Beavers\"\n
         \     },\n      {\n        \"firstName\": \"Chris\",\n        \"id\": \"SJBelisgHh\",\n
         \       \"lastName\": \"Wiswell\"\n      },\n      {\n        \"firstName\":
-        \"Satish\",\n        \"id\": \"V1FPuGot-I\",\n        \"lastName\": \"Talim\"\n
+        \"Satish\",\n        \"id\": \"v2FPuGot-I\",\n        \"lastName\": \"Talim\"\n
         \     }\n    ]\n  }\n}"
     http_version: '1.1'
   recorded_at: Tue, 04 Jun 2013 03:42:37 GMT

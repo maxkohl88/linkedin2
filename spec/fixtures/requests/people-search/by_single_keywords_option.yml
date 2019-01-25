@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.linkedin.com/v1/people-search?keywords=github
+    uri: https://api.linkedin.com/v2/people-search?keywords=github
     body:
       encoding: US-ASCII
       string: ''
@@ -10,7 +10,7 @@ http_interactions:
       X-Li-Format:
       - json
       Authorization:
-      - OAuth oauth_consumer_key="mpibxdpwbwry", oauth_nonce="DlBgAEJHkDYAnMMZwzFObsUNcCmRbzFldB4dV1yeE",
+      - OAuth oauth_consumer_key="mpibxdpwbwry", oauth_nonce="DlBgAEJHkDYAnMMZwzFObsUNcCmRbzFldB4dv2yeE",
         oauth_signature="RLiPr%2FC1bq9Dv29W3mjezy1of54%3D", oauth_signature_method="HMAC-SHA1",
         oauth_timestamp="1365631655", oauth_token="d9f69cd6-f3f3-4c26-9f2c-12cd8e228089",
         oauth_version="1.0"
@@ -46,7 +46,7 @@ http_interactions:
         \"Jay\",\n        \"id\": \"i24wDA2GrH\",\n        \"lastName\": \"Beavers\"\n
         \     },\n      {\n        \"firstName\": \"Chris\",\n        \"id\": \"SJBelisgHh\",\n
         \       \"lastName\": \"Wiswell\"\n      },\n      {\n        \"firstName\":
-        \"Satish\",\n        \"id\": \"V1FPuGot-I\",\n        \"lastName\": \"Talim\"\n
+        \"Satish\",\n        \"id\": \"v2FPuGot-I\",\n        \"lastName\": \"Talim\"\n
         \     }\n    ]\n  }\n}"
     http_version: '1.1'
   recorded_at: Tue, 04 Jun 2013 03:42:37 GMT
