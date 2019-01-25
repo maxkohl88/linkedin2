@@ -28,6 +28,7 @@ module LinkedIn
                           'mfeed-rss-url', 'following', 'job-bookmarks', 'suggestions', 'date-of-birth',
                           'related-profile-views', 'honors-awards' ]
 
+    R_LITEPROFILE = BASE_BASIC_PROFILE
     R_BASICPROFILE = BASE_BASIC_PROFILE + [ PROFILE_RELATION_TO_VIEWER ]
     R_EMAILADDRESS = [ 'email-address' ]
     R_FULLPROFILE = R_BASICPROFILE + BASE_FULL_PROFILE + [ PROFILE_MEMBER_URL_RESOURCES ]

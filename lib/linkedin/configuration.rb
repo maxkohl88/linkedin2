@@ -9,7 +9,7 @@ module LinkedIn
           app_secret: nil,
           access_token: nil,
 
-          scope: ['r_basicprofile'],
+          scope: ['r_liteprofile'],
           redirect_uri: 'http://localhost',
 
           logger: Logger.new('/dev/null')

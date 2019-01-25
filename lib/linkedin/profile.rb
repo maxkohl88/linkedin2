@@ -13,7 +13,7 @@ module LinkedIn
     end
 
     def self.find_by(options)
-      Profile.new client.profile( { fields: LinkedIn.r_basicprofile }.merge options)
+      Profile.new client.profile( { fields: LinkedIn.r_liteprofile }.merge options)
     end
   end
 end
