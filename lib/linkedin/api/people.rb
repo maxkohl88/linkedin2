@@ -5,8 +5,8 @@ module LinkedIn
         execute 'people', { selector: selector }.merge(opts)
       end
 
-      def my_profile(selector = '', **opts)
-        execute 'me', { selector: selector }.merge(opts)
+      def my_profile(**opts)
+        execute 'me', opts
       end
 
       def connections(selector = '~', **opts)
