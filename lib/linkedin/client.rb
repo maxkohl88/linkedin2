@@ -46,11 +46,6 @@ module LinkedIn
       rendered_fields = Fields.render fields
       query = ['v2', root, selector.to_param, opts[:path]].compact.join('/').concat(rendered_fields)
 
-      if opts[:headers] && opts[:headers]['Authorization']
-        connection.request :linkedin_credentials, opts[:headers]['Authorization']
-        opts[:headers].delete('Authorization')
-      end
-
       response = connection.send method, query do |req|
         req.headers.update override(@headers, opts[:headers])
         req.params.update override(@params, opts[:params])
