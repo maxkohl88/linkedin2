@@ -11,6 +11,7 @@ module LinkedIn
                           LinkedIn::API::Messaging,
                           LinkedIn::API::NetworkUpdates,
                           LinkedIn::API::People
+                          LinkedIn::API::EmailAddress
     end
   end
 end
